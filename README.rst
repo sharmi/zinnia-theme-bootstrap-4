@@ -2,8 +2,9 @@
 Zinnia-theme-bootstrap
 ======================
 
-Zinnia-theme-bootstrap is a python package providing a theme built on
-`Bootstrap 3` for `django-blog-zinnia`_.
+Zinnia-theme-bootstrap-4 is a python package providing a theme built on
+`Bootstrap 4` for `django-blog-zinnia`_.
+This is forked and adapted from `Zinnia Theme Bootstrap` 
 
 Installation
 ============
@@ -28,4 +29,5 @@ Now Zinnia is Bootstrap ready.
 .. _`django-blog-zinnia`: http://www.django-blog-zinnia.com/
 .. _`django-app-namespace-template-loader`: https://github.com/Fantomas42/django-app-namespace-template-loader
 .. _`Zinnia is installed`: http://docs.django-blog-zinnia.com/en/latest/getting-started/install.html
+.. _`Zinnia Theme Bootstrap`: https://github.com/django-blog-zinnia/zinnia-theme-bootstrap
 
