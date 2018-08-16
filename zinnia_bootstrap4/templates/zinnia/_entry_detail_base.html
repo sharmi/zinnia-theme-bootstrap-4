@@ -59,7 +59,7 @@
         {% if continue_reading %}
         <a href="{{ object.get_absolute_url }}" title="{{ object.title }}" rel="bookmark">
           {% endif %}
-          <img src="{{ object.image.url }}" alt="{{ object.title }}" class="img-thumbnail img-responsive" />
+          <img src="{{ object.image.url }}" alt="{{ object.title }}" class="img-thumbnail img-fluid" />
           {% if continue_reading %}
         </a>
         {% endif %}
@@ -79,13 +79,13 @@
          title="{% blocktrans with object=object.title percent=object_content.remaining_percent|floatformat:0 %}{{ percent }}% of {{ object }} still remains to read.{% endblocktrans %}"
          rel="bookmark" class="btn btn-primary">
         {% trans "Continue reading" %}
+
       </a>
     </p>
-    {% endif %}
+    {% endif %} 
     {% endblock continue-reading %}
   </div>
   {% endblock entry-body %}
-
   {% block entry-footer %}
   <footer class="entry-footer well">
     {% block entry-tags %}

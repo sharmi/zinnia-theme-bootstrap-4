@@ -9,7 +9,7 @@
   <li class="list-group-item">
     <a href="{% url 'zinnia:tag_detail' object %}"
        title="{% blocktrans with tag=object %}Show all entries tagged by {{ tag }}{% endblocktrans %}">{{ object }}</a>
-    <span class="badge">
+    <span class="tag tag-pill">
       {% blocktrans count entry_count=object.count %}{{ entry_count }} entry{% plural %}{{ entry_count }} entries{% endblocktrans %}
     </span>
   </li>
