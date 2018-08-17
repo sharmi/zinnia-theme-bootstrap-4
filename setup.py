@@ -2,20 +2,20 @@
 from setuptools import setup
 from setuptools import find_packages
 
-import zinnia_bootstrap
+import zinnia_bootstrap4
 
 setup(
-    name='zinnia-theme-bootstrap',
-    version=zinnia_bootstrap.__version__,
+    name='zinnia-theme-bootstrap4',
+    version=zinnia_bootstrap4.__version__,
 
     description='Bootstrap theme for django-blog-zinnia',
     long_description=open('README.rst').read(),
 
     keywords='django, blog, weblog, zinnia, theme, skin, bootstrap',
 
-    author=zinnia_bootstrap.__author__,
-    author_email=zinnia_bootstrap.__email__,
-    url=zinnia_bootstrap.__url__,
+    author=zinnia_bootstrap4.__author__,
+    author_email=zinnia_bootstrap4.__email__,
+    url=zinnia_bootstrap4.__url__,
 
     packages=find_packages(exclude=['demo_zinnia_bootstrap']),
     classifiers=[
@@ -29,7 +29,7 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Topic :: Software Development :: Libraries :: Python Modules'],
 
-    license=zinnia_bootstrap.__license__,
+    license=zinnia_bootstrap4.__license__,
     include_package_data=True,
     zip_safe=False
 )
