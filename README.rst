@@ -29,6 +29,12 @@ Setting up Demo
 
 To try out the demo, create a virtual environment. This is recommended but not necessary. The recommended python version is 3.
 
+Either clone or download this repository
+   
+   `git clone https://github.com/sharmi/zinnia-theme-bootstrap-4.git`
+
+   `export PYTHONPATH=/path/to/clone/location/zinnia-theme-bootstrap-4`
+
 Next, install the following libraries
 
     `pip install django django-blog-zinnia django-app-namespace-template-loader zinnia-theme-bootstrap-4`
