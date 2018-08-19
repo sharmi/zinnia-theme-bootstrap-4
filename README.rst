@@ -24,6 +24,27 @@ Now Zinnia is Bootstrap ready.
    * You need to use the ``django.template.loaders.eggs.Loader`` template
      loader if you have installed the package as an egg.
 
+Setting up Demo
+===============
+
+To try out the demo, create a virtual environment. This is recommended but not necessary. The recommended python version is 3.
+
+Next, install the following libraries
+
+    `pip install django django-blog-zinnia django-app-namespace-template-loader zinnia-theme-bootstrap-4`
+
+now run the following command to create the required tables.
+ 
+    `django-admin migrate --settings "demo_zinnia_bootstrap.settings"`
+
+Run the following command if you want an user id and password to login to the admin section. 
+
+   `django-admin createsuperuser --settings "demo_zinnia_bootstrap.settings"`
+
+Run the following command to start the server
+
+   `django-admin runserver --settings "demo_zinnia_bootstrap.settings"`
+
 
 .. _`Bootstrap 3`: http://getbootstrap.com/
 .. _`django-blog-zinnia`: http://www.django-blog-zinnia.com/

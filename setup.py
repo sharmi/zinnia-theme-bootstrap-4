@@ -1,17 +1,17 @@
-"""Setup script for zinnia-theme-bootstrap"""
+"""Setup script for zinnia-theme-bootstrap4"""
 from setuptools import setup
 from setuptools import find_packages
 
 import zinnia_bootstrap4
 
 setup(
-    name='zinnia-theme-bootstrap4',
+    name='zinnia-theme-bootstrap-4',
     version=zinnia_bootstrap4.__version__,
 
-    description='Bootstrap theme for django-blog-zinnia',
+    description='Bootstrap 4 theme for django-blog-zinnia',
     long_description=open('README.rst').read(),
 
-    keywords='django, blog, weblog, zinnia, theme, skin, bootstrap',
+    keywords='django, blog, weblog, zinnia, theme, skin, bootstrap, bootstrap 4',
 
     author=zinnia_bootstrap4.__author__,
     author_email=zinnia_bootstrap4.__email__,
