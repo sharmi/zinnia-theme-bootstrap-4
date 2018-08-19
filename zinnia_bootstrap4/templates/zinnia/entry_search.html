@@ -8,7 +8,7 @@
 <p class="alert alert-error">{{ error }}</p>
 {% else %}
 <p class="feed">
-  <span class="glyphicon glyphicon-list-alt"></span>
+  <span class="fas fa-list-alt"></span>
   <a href="{% url 'zinnia:entry_search_feed' %}?pattern={{ pattern }}" title="{% blocktrans %}RSS feed of search results for '{{ pattern }}'{% endblocktrans %}">
     {% blocktrans %}RSS feed of search results for '{{ pattern }}'{% endblocktrans %}
   </a>

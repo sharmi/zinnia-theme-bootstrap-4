@@ -58,7 +58,7 @@
 
 {% block entry-pingbacks %}
 {% if object.pingback_count %}
-<section id="pingbacks" class="card text-white bg-info">
+<section id="pingbacks" class="card my-3 text-white bg-info">
     <div class="card-header">
     {% trans "Pingbacks" %}
   </div>
@@ -202,7 +202,7 @@
 {% if perms.zinnia.change_entry %}
 <li class="list-group-item"> 
   <a href="{% url 'admin:zinnia_entry_change' object.pk %}" title="{% trans "Edit the entry" %}">
-    <span class="glyphicon glyphicon-edit"></span>
+    <span class="fas fa-edit"></span>
     {% trans "Edit the entry" %}
   </a>
 </li>
